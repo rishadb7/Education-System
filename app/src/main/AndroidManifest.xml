@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pk.edu.bisedik">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="pk.edu.bisedik.Main.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Contect_us.Contect_Us"></activity>
+        <activity android:name=".Contect_us.RecyclerViewExample">
+
+        </activity>
+
+        <activity android:name=".Online_App.OnlineAppActivity"></activity>
+        <activity android:name=".Online_App.TrackingActivity"></activity>
+       <!-- <activity android:name=".Result.Result_Activity"
+            android:label="Result"></activity>-->
+        <activity android:name=".RollNo.Roll_No_Slip_Activity"></activity>
+
+    </application>
+
+</manifest>

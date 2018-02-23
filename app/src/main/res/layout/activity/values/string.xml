@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">B.I.S.E_D.I.Khan</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Noification fragment</string>
+    <string name="map_fragment">Map Fragment</string>
+    //spinner one
+    <string-array name="examination">
+        <item>Select Examination</item>
+        <item>SSC-I Annual(9th)</item>
+        <item>SSC-II Annual(10th)</item>
+        <item>HSSC-I Annual(11th)</item>
+        <item>HSSC-II Annual(12th)</item>
+        <item>SSC Suplementary</item>
+        <item>HSSC Suplementary</item>
+    </string-array>
+    //spinner two
+    <string-array name="years">
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+
+    </string-array>
+</resources>

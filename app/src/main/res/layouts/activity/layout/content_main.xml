@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pk.edu.bisedik.Main.MainActivity"
+    android:background="@color/white"
+   >
+
+
+
+    <FrameLayout
+        android:background="@color/white"
+        android:id="@+id/fragmentHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:weightSum="3"
+                    android:id="@+id/linierLayoutfirst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:id="@+id/imgNews"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/news" />
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:id="@+id/imgResult"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/result"/>
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:id="@+id/imgRollNo"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/rolnumber"/>
+                </LinearLayout>
+
+                <!--Second linier layout-->
+                <LinearLayout
+                   android:weightSum="3"
+                    android:id="@+id/linierLayoutSecond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:id="@+id/imgOnlineApp"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/online"/>
+                    <ImageView
+                        android:layout_weight="1"
+                        android:id="@+id/imgAffiliated"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/affliated"/>
+                    <ImageView
+                        android:layout_weight="1"
+                        android:id="@+id/imgFeeInfo"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/fee"/>
+
+
+
+                </LinearLayout>
+
+                <!--Third linier layout-->
+                <LinearLayout
+                    android:weightSum="3"
+                    android:id="@+id/linierLayoutThird"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:id="@+id/imgContect"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/contect"/>
+
+                    <ImageView
+                        android:layout_weight="1"
+                        android:id="@+id/imgGallery"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/gallery"
+                        />
+                    <ImageView
+                        android:layout_weight="1"
+                        android:id="@+id/imgFaq"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/faq"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+<!--First linier layout-->
+
+</RelativeLayout>
